@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indice</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estiloindex.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="deplegable.css">
+</head>
+
+    <nav class="nav">
+
+        <div class="nav__container">
+
+            <a href="../Index.html" class="back"><h1 class="nav__title">Pagina Principal</h1></a>
+
+            <a href="#menu" class="nav__menu">
+                <img src="./assets/menu.svg" class="nav__icon">
+            </a>
+
+            <a href="#" class="nav__menu nav__menu--second">
+                <img src="./assets/close.svg" class="nav__icon ">
+            </a>
+
+            <ul class="dropdown" id="menu">
+
+                <li class="dropdown__list">
+                    <a href="Index.html" class="dropdown__link">
+                        <img src="./assets/house.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Inicio</span>
+                    </a>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="./assets/projects.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Primer Parcial</span>
+                        <img src="./assets/down.svg" class="dropdown__arrow">
+
+                        <input type="checkbox" class="dropdown__check">
+                    </a>
+
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+
+                            <li class="dropdown__li">
+                                <a href="primerparcial/IntroLog.html" class="dropdown__anchor">Historia de la Computación Definiciones</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="primerParcial.html" class="dropdown__anchor">Las primeras computadoras</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="primerParcial.html" class="dropdown__anchor">arquitectura de computadoras</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="primerParcial.html" class="dropdown__anchor">Sistemas Operativos</a>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="./assets/projects.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Segundo Parcial</span>
+                        <img src="./assets/down.svg" class="dropdown__arrow">
+                        <input type="checkbox" class="dropdown__check">
+                    </a>
+
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+
+                            <li class="dropdown__li">
+                                <a href="segundoParcial.html" class="dropdown__anchor">Bases de Datos</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="segundoParcial.html" class="dropdown__anchor">Normalización</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="segundoParcial.html" class="dropdown__anchor">Modelo de Redes</a>
+                            </li>
+                          
+
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="./assets/projects.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Examen Final</span>
+                        <img src="./assets/down.svg" class="dropdown__arrow">
+                        <input type="checkbox" class="dropdown__check">
+                    </a>
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+
+                            <li class="dropdown__li">
+                                <a href="#" class="dropdown__anchor">Introducción al Desarrollo Web</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="#" class="dropdown__anchor">Formularios HTML</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="#" class="dropdown__anchor">Introducción CSS</a>
+                            </li>
+                          
+
+                        </ul>
+
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+
+<body>
+
+    
+
+    <div class="contentheader">
+
+        <h1 class="title">Introducción a los Sistemas de Cómputo</h1>
+        <div class="intro">
+        <p>Proporcionar al estudiante los conceptos
+            básicos de sistemas y las capacidades
+            necesarias para el manejo de paquetes de
+            software; los cuales le servirán para el
+            desarrollo de sus labores académicas y/o
+            laborales.</p>
+        <p>Definir los tipos de software que puede
+            encontrar en su ambiente. Clasificar el hardware que utiliza una
+            computadora. Conocimientos básicos para la
+            elaboración de aplicaciones web.</p>
+        </div>
+    </div>
+
+        <h2 class="indice">Índice de temas</h2>
+
+    <div class="links">
+        <div class="deplegable">
+            <button class="boton">Primer parcial</button>
+            <div class="contenido">
+            <a href="primerParcial.html">Introduccion a la logica</a>
+            <a href="primerParcial.html">Historia de la computación</a>
+            <a href="primerParcial.html">Sistemas Operativos</a>
+            </div>
+        </div>
+
+        <div class="deplegable">
+            <button class="boton">Segundo parcial</button>
+            <div class="contenido">
+                <a href="segundoParcial.html">Bases de Datos</a>
+            <a href="segundoParcial.html">Normalización</a>
+            <a href="segundoParcial.html">Comunicaciones y redes.</a>
+            </div>
+        </div>
+
+        <div class="deplegable">
+            <button class="boton">Examen Final</button>
+            <div class="contenido">
+                <a href="tercerParcial.html">Introduccion al desarrollo web</a>
+            <a href="tercerParcial.html">Fundamentos HTML</a>
+            <a href="tercerParcial.html">Fundamentos CSS</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="infoper">
+            <p>Juan Alberto Ruíz Porras</p>
+            <P>5090-23-4471</P>
+        </div>
+        <div class="logo">
+            <a href="https://www.umg.edu.gt">
+            <img src="imagenes/logo mariano.png" class="logom">
+            </a>
+        </div>
+    </footer>
+
+
+</body>
+</html>
